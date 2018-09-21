@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Aula Vinicius - Javascript</title>
+  </head>
+  <body>
+    <div class="container">
+    	<fieldset>
+    		<legend>Cadastro</legend>
+
+            <div class="row">
+
+    		<div class="form-group col-sm-6">
+    			<label>Nome:</label>
+    			<input id="nome" class="form-control" type="text" name="" placeholder="digite o Nome">
+    		</div>
+    		<div class="form-group col-sm-6">
+    			<label>Sobrenome:</label>
+    			<input id="sobrenome" class="form-control" type="text" name="" placeholder="digite o Sobrenome">
+    		</div>
+        </div>
+        <div class="row">
+            <div class="form-group col-sm-6">
+                <label>Telefone:</label>
+                <input id="telefone" class="form-control" type="text" name="" placeholder="digite o telefone">
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Operadora:</label>
+                <select id="operadora" class="form-control">
+                    <option value="">Selecione</option>
+                    <option value="1">Tim</option>
+                    <option value="2">Vivo</option>
+                    <option value="3">Oi</option>
+                    <option value="4">Claro</option>
+                </select>
+            </div>
+        </div>
+
+    		<div id="Msg" class="alert" role="alert"></div>
+
+    		
+
+    		<hr>
+
+    		<button onclick="validaForm()" class="btn btn-success">Enviar</button>
+
+            <button onclick="limpaValidacao()" class="btn btn-danger">Limpar</button>
+    	</fieldset>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
