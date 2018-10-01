@@ -1,0 +1,42 @@
+{
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "vinicius",
+      "sobrenome": "andrade",
+      "telefone": "33665588",
+      "operadora": {
+        "id": 1,
+        "nome": "claro"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "paulo",
+      "sobrenome": "miguel",
+      "telefone": "33698852",
+      "operadora": {
+        "id": 3,
+        "nome": "Vivo"
+      }
+    }
+  ],
+  "operadoras": [
+    {
+      "id": 1,
+      "nome": "claro"
+    },
+    {
+      "id": 2,
+      "nome": "Oi"
+    },
+    {
+      "id": 3,
+      "nome": "Vivo"
+    },
+    {
+      "id": 4,
+      "nome": "Tim"
+    }
+  ]
+}
